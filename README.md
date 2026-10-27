@@ -1,4 +1,4 @@
-# My kitty + fastfetch + fish dotfiles
+# nand-kitty-rice
 
 A CachyOS/Arch setup where fastfetch greets you on every new shell with an
 illustrated two-column layout: the artwork on the left, 24 hand-cut icons next
@@ -27,7 +27,7 @@ fish/
 ## Install
 
 ```sh
-git clone https://github.com/Black-sys-dot/dotfiles.git ~/dotfiles
+git clone https://github.com/Black-sys-dot/nand-kitty-rice.git ~/dotfiles
 ln -sfn ~/dotfiles/fastfetch ~/.config/fastfetch
 ln -sfn ~/dotfiles/kitty    ~/.config/kitty
 ln -sfn ~/dotfiles/fish     ~/.config/fish
