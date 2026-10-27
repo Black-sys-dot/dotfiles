@@ -1,0 +1,5 @@
+# machine state, not dotfiles
+fish/fish_variables
+*.tmp
+*.bak
+*.log

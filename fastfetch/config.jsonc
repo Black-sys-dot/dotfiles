@@ -1,0 +1,47 @@
+{
+  // fastfetch config - custom logo + per-line kitty image icons
+  // icons: ~/.config/fastfetch/icons/*.png (256x128 px, rendered 2x1 cells)
+  "logo": {
+    "type": "kitty-direct",
+    "source": "/home/black/.config/fastfetch/logo.png",
+    "width": 20,
+    "height": 26,
+    "preserveAspectRatio": true,
+    "padding": { "left": 2, "right": 4, "top": 1 }
+  },
+  "display": {
+    "separator": ": ",
+    // key.width = icon(2) + space + longest key, so values line up
+    "key": { "width": 25, "type": "both" }
+  },
+  "modules": [
+    { "type": "title" },
+    { "type": "separator" },
+    { "type": "os", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=1,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvb3MucG5n\u001b\\\u001b[2C" },
+    { "type": "host", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=2,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvaG9zdC5wbmc=\u001b\\\u001b[2C" },
+    { "type": "kernel", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=3,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMva2VybmVsLnBuZw==\u001b\\\u001b[2C" },
+    { "type": "uptime", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=4,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvdXB0aW1lLnBuZw==\u001b\\\u001b[2C" },
+    { "type": "packages", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=5,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvcGFja2FnZXMucG5n\u001b\\\u001b[2C" },
+    { "type": "shell", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=6,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvc2hlbGwucG5n\u001b\\\u001b[2C" },
+    { "type": "display", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=7,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvZGlzcGxheS5wbmc=\u001b\\\u001b[2C" },
+    { "type": "de", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=8,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvZGUucG5n\u001b\\\u001b[2C" },
+    { "type": "wm", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=9,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvd20ucG5n\u001b\\\u001b[2C" },
+    { "type": "wmtheme", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=10,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvd210aGVtZS5wbmc=\u001b\\\u001b[2C" },
+    { "type": "theme", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=11,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvdGhlbWUucG5n\u001b\\\u001b[2C" },
+    { "type": "icons", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=12,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvaWNvbnMucG5n\u001b\\\u001b[2C" },
+    { "type": "font", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=13,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvZm9udC5wbmc=\u001b\\\u001b[2C" },
+    { "type": "cursor", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=14,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvY3Vyc29yLnBuZw==\u001b\\\u001b[2C" },
+    { "type": "terminal", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=15,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvdGVybWluYWwucG5n\u001b\\\u001b[2C" },
+    { "type": "terminalfont", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=16,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvdGVybWluYWxmb250LnBuZw==\u001b\\\u001b[2C" },
+    { "type": "cpu", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=17,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvZ3B1Mi5wbmc=\u001b\\\u001b[2C" },
+    { "type": "gpu", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=18,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvZ3B1MS5wbmc=\u001b\\\u001b[2C" },
+    { "type": "memory", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=19,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvbWVtb3J5LnBuZw==\u001b\\\u001b[2C" },
+    { "type": "swap", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=20,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvc3dhcC5wbmc=\u001b\\\u001b[2C" },
+    { "type": "disk", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=21,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvZGlzay5wbmc=\u001b\\\u001b[2C" },
+    { "type": "localip", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=22,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvbG9jYWxpcC5wbmc=\u001b\\\u001b[2C" },
+    { "type": "battery", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=23,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvYmF0dGVyeS5wbmc=\u001b\\\u001b[2C" },
+    { "type": "locale", "keyIcon": "\u001b_Ga=T,f=100,t=f,i=24,c=2,r=1,C=1,q=2;L2hvbWUvYmxhY2svLmNvbmZpZy9mYXN0ZmV0Y2gvaWNvbnMvbG9jYWxlLnBuZw==\u001b\\\u001b[2C" },
+    { "type": "break" },
+    { "type": "colors" }
+  ]
+}
