@@ -71,6 +71,7 @@ for r, c, name, a in report:
            '-resize', '212x236',
            '-background', 'none', '-gravity', 'center', '-extent', '216x240',
            '-background', 'black', '-alpha', 'background',
+           '-strip',
            out]
     p = subprocess.run(cmd, capture_output=True, text=True)
     if p.returncode != 0:
